@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!-- css style -->
+    <style>
+      .banner {
+        background: url("assets/bg1.jpg") no-repeat center center;
+        background-size: cover;
+        padding-top: 18%;
+        padding-bottom: 18%;
+        color: white;
+      }
+      .btn-banner {
+        margin-top: 25px;
+      }
+      .about {
+        max-width: 700px;
+        max-height: 500px;
+        margin-bottom: 40px;
+      }
+      .profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .nick {
+        margin-bottom: 30px;
+      }
+      .project {
+        background-color: black;
+        color: white;
+      }
+      .dev {
+        margin-top: 80px;
+        margin-bottom: -20px;
+      }
+      .poto {
+        margin-top: 80px;
+        margin-bottom: -20px;
+      }
+      .desn {
+        margin-top: 80px;
+        margin-bottom: -20px;
+      }
+      .foto {
+        max-width: 80%;
+        height: auto;
+      }
+      footer {
+        background-color: #000;
+        color: white;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#banner">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- banner -->
+    <div class="container-fluid banner" id="banner">
+      <div class="container text-center">
+        <h1 class="display-1">Welcome To My Portfolio</h1>
+        <h4 class="display-7">by : Rysanz</h4>
+        <div class="btn-banner">
+          <a href="#about">
+            <button type="button" class="btn btn-light btn-lg">About Me</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- about -->
+    <div class="container-fluid about pt-5 pb-5" id="about">
+      <div class="container text-center">
+        <h2 class="display-3">About Me</h2>
+        <img class="profile" src="assets/profile.JPG" alt="" />
+        <h3 class="nama">Made Ary Sanjaya</h3>
+        <h5 class="nick">Rysanz</h5>
+        <p>Saya merupakan mahasiswa program studi Teknologi Informasi Universitas Pendidikan Nasional. Yang sangat tertarik dengan Pemrograman, Desain UI UX, Fotografi dan Videografi. Saya bercita-cita ingin menjadi ahli di bidangnya.</p>
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- project -->
+    <div class="container-fluid project pt-5 pb-5" id="project">
+      <div class="container text-center">
+        <h2 class="display-3">My Project</h2>
+        <h3 class="display-5 dev">Development</h3>
+        <div class="row mt-5">
+          <hr />
+          <div class="col-4 mt-4 mb-4">
+            <h3>Sistem Pendukung Keputusan</h3>
+            <p>Software yang membantu pengambilan keputusan dengan menganalisis data, model, dan skenario untuk solusi terbaik.</p>
+          </div>
+          <div class="col-4 mt-4 mb-4">
+            <h3>Sistem Pakar</h3>
+            <p>Program komputer yang menggunakan pengetahuan ahli untuk memberikan solusi dan rekomendasi dalam domain tertentu.</p>
+          </div>
+          <div class="col-4 mt-4 mb-4">
+            <h3>Re-Design Web E-SAKIP</h3>
+            <p>E-SAKIP adalah sebuah sistem akuntabilitas kinerja pemerintah yang digunakan untuk memantau kinerja dari sebuah instansi pemerintahan.</p>
+          </div>
+          <hr />
+        </div>
+        <h3 class="display-5 poto">Photography</h3>
+        <div class="row mt-5">
+          <hr />
+          <div class="col-4 mt-4 mb-4">
+            <img class="foto" src="assets/IMG_6472.JPG" alt="" />
+          </div>
+          <div class="col-4 mt-4 mb-4">
+            <img class="foto" src="assets/IMG_9712-2.jpg" alt="" />
+          </div>
+          <div class="col-4 mt-4 mb-4">
+            <img class="foto" src="assets/IMG_6600.jpg" alt="" />
+          </div>
+          <hr />
+        </div>
+        <h3 class="display-5 desn">Design</h3>
+        <div class="row mt-5">
+          <hr />
+          <div class="col-4 mt-4 mb-4">
+            <img class="foto" src="assets/desain1.jpg" alt="" />
+          </div>
+          <div class="col-4 mt-4 mb-4">
+            <img class="foto" src="assets/desain2.jpg" alt="" />
+          </div>
+          <div class="col-4 mt-4 mb-4">
+            <img class="foto" src="assets/desain3.jpg" alt="" />
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <!-- end project -->
+
+    <!-- contact -->
+    <div class="container-fluid contact pt-5 pb-5" id="contact">
+      <div class="container">
+        <h2 class="display-3 text-center">Contact Me</h2>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nama</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama Lengkap" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <button type="button" class="btn btn-dark">Submit</button>
+      </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+  <footer class="footer text-center p-3">© 2023 Copyright: Rysanz</footer>
+</html>
